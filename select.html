@@ -1,0 +1,53 @@
+<!-- html form select option - jo form me option mile jaise state me milta hai bihar, up,mp etc-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <select>
+            <option vlaue="1">audi</option>
+            <!--yaha value backned ka part hai select hone ke badd data kaha jaye-->
+            <option vlaue="1" selected>car</option>
+            <!--to give default we use selected-->
+            <option vlaue="1">bmw</option>
+            <option vlaue="1">mahindra</option>
+        </select> <br> <br>
+        <select size="3">
+            <!--size provide how many item to show -->
+            <option vlaue="1">audi</option>
+            <!---->
+            <option vlaue="1" selected>car</option>
+            <option vlaue="1">bmw</option>
+            <option vlaue="1">mahindra</option>
+        </select> <br> <br>
+        <select size="3" multiple>
+            <option vlaue="1">audi</option>
+            <!--for multuple slection we use multiple-->
+            <option vlaue="1" selected>car</option>
+            <option vlaue="1">bmw</option>
+            <option vlaue="1">mahindra</option>
+        </select> <br> <br>
+
+        <!-- to make two different category in same box we use "octgroup" -->
+        <select>
+            <optgroup label="car name">
+                <option vlaue="1">audi</option>
+                <option vlaue="1">car</option>
+                <option vlaue="1">bmw</option>
+                <option vlaue="1">mahindra</option>
+            </optgroup >
+            <optgroup label=sports>
+                <option vlaue="1">cricket</option>
+                <option vlaue="1">football</option>
+                <option vlaue="1">hockey</option>
+                <option vlaue="1">bollyball</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!-- creating html table -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>creating html table</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption>Table example </caption> <!--use for giving name of table for which purpose this table is made-->
+        <thead style="color:red">
+            <tr>
+                <th>heading1</th> <!-- if we write th  outside tr then it will give heading columnwise-->
+                <th>heading2</th>
+                <th>heading3</th>
+            </tr>
+        </thead>
+        <tr>
+            <td colspan="2">data1</td> <!-- if we write <th> inside tr then it will give heading rowise-->
+            <td>data2</td>
+            <!--we can also  use image tag inside <td> tag or anything we can use indide in place of data. -->
+            <!-- <td>data3</td>     colspan is used to combine two column -->
+        </tr>
+        <tr>
+            <td rowspan="2">data4</td>
+            <!--we use rowspan to to merge two row -->
+            <td>data5</td>
+            <td>data6</td>
+        </tr>
+        <tr>
+            <td>data7</td>
+            <td>data8</td>
+            <!-- <td>data9</td> -->
+        </tr>
+    </table>
+</body>
+
+</html>
